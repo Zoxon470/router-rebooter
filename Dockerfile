@@ -6,8 +6,8 @@ COPY crontab /etc/cron.d/rebooter-cron
 RUN chmod 0644 /etc/cron.d/rebooter-cron
 RUN touch /var/log/cron.log
 
-RUN apk update
-RUN apk add chromium chromium-chromedriver dcron
+RUN apk update && \
+    apk add chromium chromium-chromedriver dcron
 
 COPY . .
 
