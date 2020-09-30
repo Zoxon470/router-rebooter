@@ -1,0 +1,1 @@
+0 */2 * * * python /rebooter/rebooter.py >> /var/log/cron.log 2>&1
