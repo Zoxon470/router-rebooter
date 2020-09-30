@@ -30,11 +30,11 @@ $ docker logs -f rebooter # See logs for rebooting router
 
 ### Environments
 
-Name | Value
------------- | -------------
-`ROUTER_URL` | http://192.168.0.1/
-`ROUTER_LOGIN` | admin
-`ROUTER_ADMIN` | admin
+Name | Value | Description
+------------ | ------------- | -------------
+`ROUTER_URL` | http://192.168.0.1/ | URL for router admin panel 
+`ROUTER_LOGIN` | admin | Login for admin account
+`ROUTER_ADMIN` | admin | Password for admin account
 
 Example running docker container via environments
 
